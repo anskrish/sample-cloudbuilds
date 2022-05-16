@@ -3,4 +3,4 @@ steps:
   entrypoint: /bin/sh
   args:
   - '-c'
-  - 'free -g'
+  - 'free -m'
