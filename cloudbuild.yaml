@@ -3,6 +3,6 @@ steps:
   entrypoint: /bin/sh
   args:
   - '-c'
-  - 'free -k'
+  - 'free -m'
 options:
   logging: CLOUD_LOGGING_ONLY
